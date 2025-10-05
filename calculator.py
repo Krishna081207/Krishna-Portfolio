@@ -1,4 +1,4 @@
-#Caclculator
+#Calculator
 while True:
     print("Select operation.")
     print("1.Add")
