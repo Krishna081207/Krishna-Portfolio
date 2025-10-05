@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -207,3 +208,213 @@
 </body>
 </html>
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krishna Loshali | Portfolio</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #0f2027; /* fallback */
+      background: linear-gradient(135deg, #2c5364, #203a43, #0f2027);
+      color: white;
+      line-height: 1.6;
+      padding: 20px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      animation: fadeInDown 1.5s ease;
+    }
+
+    p, li {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      animation: fadeInUp 1.5s ease;
+    }
+
+    /* About Section */
+    .about-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 40px 0;
+      flex-wrap: wrap;
+      animation: fadeIn 2s ease;
+    }
+
+    .about-text {
+      flex: 1;
+      min-width: 300px;
+      margin-right: 20px;
+    }
+
+    .about-image img {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      border: 4px solid #8cad33;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+      animation: zoomIn 2s ease;
+    }
+
+    /* Spans Styling */
+    .author {
+        color: #ff6b6b;
+        font-weight: bold;
+    }
+    .experience {
+      color: #ffcc00;
+      font-weight: bold;
+    }
+    .skills {
+      color: #00ffcc;
+      font-weight: bold;
+    }
+    .hobby {
+      color: #ff6b6b;
+      font-weight: bold;
+    }
+    .name {
+      color: #ff6b6b;
+      font-weight: bold;
+    }
+    .branch {
+      color: #4ecdc4;
+      font-weight: bold;
+    }
+    .highlight {
+      color: #ff6b6b;
+      font-weight: bold;
+      background: none; /* no highlight box */
+      padding: 0;
+    }
+
+    /* Contact Links */
+    a {
+      color: #00bfff;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #1affd5;
+    }
+
+    /* Animations */
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(50px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes zoomIn {
+      from { transform: scale(0.5); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+
+    /* Floating Tech Icons */
+    .floating {
+      position: absolute;
+      font-size: 2rem;
+      opacity: 0.2;
+      animation: float 6s ease-in-out infinite;
+      color: white;
+    }
+
+    .icon1 { top: 10%; left: 15%; animation-delay: 0s; }
+    .icon2 { top: 20%; right: 20%; animation-delay: 2s; }
+    .icon3 { bottom: 25%; left: 10%; animation-delay: 4s; }
+    .icon4 { bottom: 15%; right: 15%; animation-delay: 1s; }
+    .icon5 { top: 50%; left: 45%; animation-delay: 3s; }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      text-align: center;
+    }
+
+    li {
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Floating Background Icons -->
+  <div class="floating icon1">💻</div>
+  <div class="floating icon2">🤖</div>
+  <div class="floating icon3">📊</div>
+  <div class="floating icon4">⚙️</div>
+  <div class="floating icon5">📈</div>
+
+  <span class ="author"><h1>HI NAVIGATORS </h1></span>
+  <p>
+    Welcome to my Space . Here you can find information about my 
+    <span class="experience">projects</span>,
+    <span class="skills">skills</span> and <span class ="hobby">hobbies</span>.
+  </p>
+
+  <!-- About Me Section -->
+  <div class="about-section">
+    <div class="about-text">
+      <h2>About Owner</h2>
+      <p>
+        I am <span class="name">Krishna LOSHALI</span>, a rookie web developer with a passion for creating beautiful and functional websites and tools with the help of 
+        <span class="skills">Artificial Intelligence</span> and 
+        <span class="skills">Machine Learning</span>. <br>
+        I have experience in <span class="skills">HTML, CSS, Python, and C programming</span>. <br>
+        Currently a first-year student of 
+        <span class="branch">Artificial Intelligence and Data Science</span> in 
+        <span class="highlight">University School of Automation and Robotics, GGSIPU EDC</span>.
+      </p>
+    </div>
+    <div class="about-image">
+      <img src="Profile.jpg" alt="My Photo">
+    </div>
+  </div>
+
+  <!-- Experience Section -->
+  <h2>My Experience</h2>
+  <ul>
+    <li>Project 1: <span class="experience">Web Development</span></li>
+    <li>Project 2: <span class="experience"><a href="projectspy.html">MINI PROJECTS </a></span></li>
+    <li>MY Corner</li>
+    <li>Skills: <span class="skills">HTML, CSS, C, Python</span></li>
+    <li>Hobbies: <span class="hobby">Reading, Coding, Cricket,Poster and Graphic design</span></li>
+  </ul>
+
+  <!-- Contact Details -->
+  <h2>Contact Details</h2>
+  <ul>
+    <li>Name: <span class="name">Krishna LOSHALI</span></li>
+    <li><a href="mailto:loshalikrishna120051@gmail.com">Email: loshalikrishna120051@gmail.com</a></li>
+    <li><a href="tel:+919548606933">Phone Number: +91 9548606933</a></li>
+  </ul>
+</body>
+</html>
+
+>>>>>>> c34a3f1 (first commit)
