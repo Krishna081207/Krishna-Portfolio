@@ -2,7 +2,7 @@ name: Deploy Vite portfolio to GitHub Pages
 
 on:
   push:
-    branches: ['portfolio-vite']
+    branches: ['main', 'portfolio-vite']
   workflow_dispatch:
 
 permissions:
